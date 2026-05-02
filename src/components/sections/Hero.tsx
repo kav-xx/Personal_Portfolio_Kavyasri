@@ -1,6 +1,6 @@
 import { ArrowDown, Mail, FolderOpen, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profilePhoto from "@/assets/profile-photo.png";
+import profilePhoto from "@/assets/profile.jpg";
 
 export function Hero() {
   return (
