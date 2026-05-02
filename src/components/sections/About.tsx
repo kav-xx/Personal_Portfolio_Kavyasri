@@ -1,5 +1,5 @@
 import { Code, Brain, Sparkles, Zap } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.png";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export function About() {
   const highlights = [
