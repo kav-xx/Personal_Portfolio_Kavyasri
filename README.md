@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+# Kavyasri V J — Personal Portfolio
 
-## Project info
+A personal portfolio website built to showcase my background, skills, projects, certifications, and contact information. Designed to be clean, responsive, and recruiter-friendly.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- Responsive design optimized for desktop and mobile devices
+- Modern UI with light/dark mode support
+- Sections for About, Education, Experience, Skills, Projects, and Certifications
+- Downloadable resume
+- Contact form with direct email delivery using EmailJS
+- Smooth navigation and subtle animations
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+**Frontend**
+- React
+- TypeScript
+- Vite
 
-**Use your preferred IDE**
+**Styling**
+- Tailwind CSS
+- shadcn/ui
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Icons**
+- Lucide React
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Contact Form**
+- EmailJS
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📂 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```
+├── public/
+│   └── resume.pdf
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── sections/
+│   │   │   ├── Hero.tsx
+│   │   │   ├── About.tsx
+│   │   │   ├── Education.tsx
+│   │   │   ├── Experience.tsx
+│   │   │   ├── Skills.tsx
+│   │   │   ├── Projects.tsx
+│   │   │   ├── Certifications.tsx
+│   │   │   └── Contact.tsx
+│   │   ├── ui/
+│   │   ├── Footer.tsx
+│   │   ├── Navbar.tsx
+│   │   └── ThemeToggle.tsx
+│   ├── hooks/
+│   ├── lib/
+│   └── pages/
+│       └── Index.tsx
+├── index.html
+├── package.json
+└── vite.config.ts
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v20+)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+```
+
+### Run Locally
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌐 Deployment
 
-**Use GitHub Codespaces**
+Deployed using **Vercel**.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Build Command:
+```
+npm run build
+```
 
-## What technologies are used for this project?
+Output Directory:
+```
+dist
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📄 Resume
 
-## How can I deploy this project?
+The resume is available in the `public/` folder and can be downloaded directly from the website.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📌 Author
 
-Yes, you can!
+**Kavyasri V J**
+Final-year B.Tech Information Technology student
+Sri Sivasubramaniya Nadar (SSN) College of Engineering, Chennai
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📜 License
+
+This project is intended for personal portfolio use.
